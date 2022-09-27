@@ -1,0 +1,78 @@
+/*Selector universa*/
+*{
+    /*Color de fondo*/
+background-color:bisque;
+/*Color de texto*/
+/*color:beige;*/
+}
+
+h1{
+    color:brown;
+    border: solid;
+}
+
+h2{
+    color:orangered
+}
+
+h3{
+    color:blueviolet;
+}
+
+h4{
+    color:blue;
+}
+
+h5{
+    color:aqua;
+}
+
+/*De clase*/
+
+.tipografía{
+
+    /*Tipografía*/
+    font-family: sans-serif;
+
+    /*Tamaño*/
+    font-size: 10px;
+
+    /*Peso*/
+    font-weight: 900;
+
+    /*Alineación*/
+    text-align: center;
+}
+
+/*De id*/
+
+#rose{
+    color:yellowgreen;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*Media querie*/
+@media only screen and (max-width:600px){
+
+    body{
+        background-color:aquamarine;
+    }
+
+    p{
+        color:blue;
+    }
+}
+
+img, video{
+    /*Ancho*/
+    width: 400px;
+
+    /*Largo*/
+    height: ;
+
+    border: ridge royalblue;
+}
